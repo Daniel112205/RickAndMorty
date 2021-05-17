@@ -1,6 +1,7 @@
 import { useState } from "react"
 
 const Search = ({handleSearch}) => {
+    //Get value ID
     const [value, setValue] = useState('');
     return (
         <div>

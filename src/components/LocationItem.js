@@ -1,5 +1,5 @@
-
-const LocationItem = ({nameLocation, typeLocation, dimensionLocation, residentsLocation}) => {
+//Show values in page
+const LocationItem = ({nameLocation, typeLocation, dimensionLocation, residentsLocation, createdLocation}) => {
     return (
       <div className="container">
         <div className="row">
@@ -8,6 +8,7 @@ const LocationItem = ({nameLocation, typeLocation, dimensionLocation, residentsL
               <h5>Type Location:{typeLocation}</h5>
               <h5>Dimension: {dimensionLocation}</h5>
               <h5>Total Residents:{residentsLocation.length}</h5>
+              <h5>Created: {createdLocation}</h5>
             </div>
         </div>    
       </div> 
